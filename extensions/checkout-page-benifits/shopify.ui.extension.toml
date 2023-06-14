@@ -1,0 +1,126 @@
+type = "checkout_ui_extension"
+name = "checkout-benifits"
+
+extension_points = [
+  'Checkout::Dynamic::Render'
+]
+
+# [[metafields]]
+# namespace = "my-namespace"
+# key = "my-key"
+
+# [[metafields]]
+# namespace = "my-namespace"
+# key = "my-key-2"
+
+# Read more on extension settings at https://shopify.dev/api/checkout-extensions/checkout/configuration
+ [settings]
+ [[settings.fields]]
+  key = "benifit_title_1"
+  type = "single_line_text_field"
+  name = "Benifts Title 1"
+  description = "Plz enter Benift Title"
+
+  [[settings.fields]]
+  key = "Benifit_subtitle_1"
+  type = "single_line_text_field"
+  name = "Benifts Sub Titles 1"
+  description = "Plz Enter Benifts Sub Titles"
+
+  [[settings.fields]]
+  key = "Benifit_img_1"
+  type = "single_line_text_field"
+  name = "Benifits Image 1"
+  description = "Plz Upload Benift Image In Your File And paste Its Link Here"
+
+ [[settings.fields]]
+  key = "benifit_title_2"
+  type = "single_line_text_field"
+  name = "Benifts Title 2"
+  description = "Plz enter Benift Title"
+
+  [[settings.fields]]
+  key = "Benifit_subtitle_2"
+  type = "single_line_text_field"
+  name = "Benifts Sub Titles 2"
+  description = "Plz Enter Benifts Sub Titles"
+
+  [[settings.fields]]
+  key = "Benifit_img_2"
+  type = "single_line_text_field"
+  name = "Benifits Image 2"
+  description = "Plz Upload Benift Image In Your File And paste Its Link Here"
+
+ [[settings.fields]]
+  key = "benifit_title_3"
+  type = "single_line_text_field"
+  name = "Benifts Title 3"
+  description = "Plz enter Benift Title"
+
+  [[settings.fields]]
+  key = "Benifit_subtitle_3"
+  type = "single_line_text_field"
+  name = "Benifts Sub Titles 3"
+  description = "Plz Enter Benifts Sub Titles"
+    
+  [[settings.fields]]
+  key = "Benifit_img_3"
+  type = "single_line_text_field"
+  name = "Benifits Image 3"
+  description = "Plz Upload Benift Image In Your File And paste Its Link Here"
+
+
+  [[settings.fields]]
+  key = "padding_block"
+  type = "single_line_text_field"
+  name = "Padding Between Two Text"
+  description = "Select Padding As You Want"
+    [[settings.fields.validations]]
+    name = "choices"
+     value = '["base", "extraLoose", "extraTight", "loose", "none", "tight"]'
+
+  [[settings.fields]]
+  key = "padding_main"
+  type = "single_line_text_field"
+  name = "Padding Between Benifits"
+  description = "Select Padding As You Want"
+    [[settings.fields.validations]]
+    name = "choices"
+     value = '["base", "extraLoose", "extraTight", "loose", "none", "tight"]'
+
+  [[settings.fields]]
+  key = "title_color"
+  type = "single_line_text_field"
+  name = "Benift Title Color"
+  description = "Select Benifit Title Color"
+    [[settings.fields.validations]]
+    name = "choices"
+     value = '["accent", "critical", "info", "subdued", "success", "warning", "interactive", "monochrome"]'
+
+  [[settings.fields]]
+  key = "title_size"
+  type = "single_line_text_field"
+  name = "Benift Title Font Size"
+  description = "Select Benifit Title Font Size"
+    [[settings.fields.validations]]
+    name = "choices"
+     value = '["base", "extralarge", "extrasmall", "large", "medium", "small"]'
+
+  [[settings.fields]]
+  key = "subtitle_color"
+  type = "single_line_text_field"
+  name = "Benift Sub Title Color"
+  description = "Select Sub Benifit Title Color"
+    [[settings.fields.validations]]
+    name = "choices"
+     value = '["accent", "critical", "info", "subdued", "success", "warning", "interactive", "monochrome"]'
+
+  [[settings.fields]]
+  key = "subtitle_size"
+  type = "single_line_text_field"
+  name = "Benift Sub Title Font Size"
+  description = "Select Benifit Sub Title Font Size"
+    [[settings.fields.validations]]
+    name = "choices"
+     value = '["base", "extralarge", "extrasmall", "large", "medium", "small"]'
+
