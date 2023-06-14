@@ -14,6 +14,7 @@
   "dependencies": {
     "@shopify/app": "3.46.5",
     "@shopify/cli": "3.46.5",
+    "git": "^0.1.5",
     "react": "^17.0.2"
   },
   "author": "Abdullah",
