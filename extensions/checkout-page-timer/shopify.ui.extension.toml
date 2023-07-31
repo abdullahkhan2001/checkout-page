@@ -33,6 +33,12 @@ extension_points = [
    name = "Timer"
    description = "Please Put The Remaining Minutes For Example ( 15 )"
 
+   [[settings.fields]]
+   key = "timer_ends"
+   type = "single_line_text_field"
+   name = "Timer End Text"
+   description = "You Can Add Timer End Text Here"
+
     [[settings.fields]]
   key = "timer_text_color"
   type = "single_line_text_field"
